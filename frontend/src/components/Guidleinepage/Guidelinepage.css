@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#guideline_page_header{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 0.3rem;
+    color:#49277A;
+    
+
+}
+
+#guideline_page_content > li {
+    font-size: 1.5rem;
+    padding: 1.5rem 3.5rem;
+    margin-top: 0.5rem;
+    
+}
+
+#guideline_page_content > li::marker {
+    color:#6D3EAF;
+}

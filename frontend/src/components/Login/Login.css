@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#login_container {
+    width: 70%;
+    margin: 5rem auto;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+#volunteer_login_container,
+#hospital_login_container {
+    height: 400px;
+    width: 500px;
+
+    background-color: #EFE4FF;
+    border-radius: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#volunteer_login_container img,
+#hospital_login_container img {
+    height: 150px;
+}
+
+#volunteer_login_container h2,
+#hospital_login_container h2 {
+    font-size: 2rem;
+}
+
+#volunteer_login_container button,
+#hospital_login_container button {
+    height: 3rem;
+    width: 7rem;
+    border-radius: 0.8rem;
+    font-size: 1.5rem;
+
+    border: none;
+}
+
+#volunteer_login_container button {
+    background-color: #FFFFFF;
+    color: #6D3EAF;
+
+    transition-property: background-color color;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+}
+
+#volunteer_login_container button:hover {
+    background-color: #6D3EAF;
+    color: #FFFFFF;
+}
+
+
+#hospital_login_container button {
+    background-color: #6D3EAF;
+    color: #FFFFFF;
+
+    transition-property: background-color color;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+}
+
+#hospital_login_container button:hover {
+    background-color: #FFFFFF;
+    color: #6D3EAF;
+}

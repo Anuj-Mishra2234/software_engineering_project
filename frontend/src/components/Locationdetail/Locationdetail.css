@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#hospital_detail_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-spacing: 0;
+    padding-top: 3rem;
+    font-size: 1.5rem;
+}
+
+#hospital_detail_container table tr:nth-child(1){
+    background-color: #522F85;
+    color: white;
+    border: none;
+    padding: 0px;
+}
+
+#hospital_detail_container th{
+    padding: 0.7rem 2rem;
+   font-size: 20px;
+   font-weight: 550;  
+}
+
+#hospital_detail_container td{
+    padding: 0.7rem 2.5rem;
+    font-size: 17px;
+    font-weight: 400;
+   
+}
+
+#hospital_detail_container table tr:nth-child(3){
+    background-color: #F4EAFF;
+}
+
+#volunteer_detail_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-spacing: 0;
+    padding-top: 3rem;
+    font-size: 1.5rem;
+}
+
+#volunteer_detail_container table tr:nth-child(1){
+    background-color: #522F85;
+    color: white;
+    border: none;
+    padding: 0px;
+}
+
+#volunteer_detail_container th{
+    padding: 0.7rem 2rem;
+   font-size: 20px;
+   font-weight: 550;  
+}
+
+#volunteer_detail_container td{
+    padding: 0.7rem 2.5rem;
+    font-size: 17px;
+    font-weight: 400;
+   
+}
+
+#volunteer_detail_container table tr:nth-child(3){
+    background-color: #F4EAFF;
+}
+
+#covid_camps_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-spacing: 0;
+    padding-top: 3rem;
+    font-size: 1.5rem;
+}
+
+#covid_camps_container table tr:nth-child(1){
+    background-color: #522F85;
+    color: white;
+    border: none;
+    padding: 0px;
+}
+
+#covid_camps_container th{
+    padding: 0.7rem 2rem;
+   font-size: 20px;
+   font-weight: 550;  
+}
+
+#covid_camps_container td{
+    padding: 0.7rem 2.5rem;
+    font-size: 17px;
+    font-weight: 400;
+   
+}
+
+#covid_camps_container table tr:nth-child(3){
+    background-color: #F4EAFF;
+}
+
+

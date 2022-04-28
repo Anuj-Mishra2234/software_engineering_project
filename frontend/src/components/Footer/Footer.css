@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#icon_container {
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#icon_container >img{
+    height: 30px;
+}

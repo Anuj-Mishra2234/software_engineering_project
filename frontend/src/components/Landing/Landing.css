@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.welcome_highlight {
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+
+#welcome_container {
+    height: 250px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome_container > p {
+    font-size: 2rem;
+}
+
+#location_container {
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#location_container >form >input {
+    background-color: #F8F3F3;
+    padding: 0.5rem 1rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+
+#guidelines_container {
+    padding: 1rem 2rem;
+    width: 20%;
+    margin: 5rem auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+
+    background-color: #EFE4FF;
+    border-radius: 1rem;
+}
+
+#guidelines_container > img{
+    height: 48px;
+}
+
+#guidelines_container > a > button{
+    background-color: transparent;
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: ease-in-out;
+}
+
+#guidelines_container > a > button:hover {
+    transform: scale(1.1);
+}

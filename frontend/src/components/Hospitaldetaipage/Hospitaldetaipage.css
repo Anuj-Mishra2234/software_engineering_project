@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#hospital_details_containers_list{
+    margin-top: 5rem;
+    color: #49277A;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Hospital_detail_page_container {
+    width: 350px;
+    padding: 1rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+
+    background-color: #F4EAFF;
+    border-radius: 1.5rem;
+}
+
+.Hospital_detail_page_container > p {
+    margin: 0 auto;
+
+    font-size: 2rem;
+}
+
+.Hospital_detail_page_container > form {
+    width: 40%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.Hospital_detail_page_container > form > input{
+    padding: 0.2rem 0.8rem;
+    background-color: #ffffff;
+
+    font-size: 1.5rem;
+
+    border: 2px solid rgb(172, 172, 172);
+    border-radius: 0.7rem;
+
+    transition-property: border-color;
+    transition-duration: 250ms;
+    transition-timing-function: ease-in-out;
+}
+
+.Hospital_detail_page_container > form > input:hover {
+    border-color: rgb(104, 104, 104);
+}
+
+.Hospital_detail_page_container > form > button{
+    width: 90%;
+    padding: 0.4rem 0.8rem;
+
+    background-color:#49277A;
+    
+    color: white;
+    font-size: 1.2rem;
+
+    border: 3px solid transparent;
+    border-radius: 0.5rem;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: ease-in-out;
+}
+
+.Hospital_detail_page_container > form > button:hover {
+    background-color: #220052;
+}
+
+.Hospital_detail_page_container >img{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#hospitalDetailOutputText {
+    padding-top: 2rem;
+    text-align: center;
+    color: rgb(13, 182, 13);
+    font-weight: 500;
+    font-size: 1.5rem;
+
+}
